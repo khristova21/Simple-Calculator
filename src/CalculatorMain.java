@@ -9,6 +9,8 @@ public class CalculatorMain
 		Calculator calc = new Calculator();
 		System.out.println(calc.add(2, 6));
 		
+		System.out.println("The difference of 19 and 8 is " + calc.subtract(19,8));
+		
 	}
 
 }
